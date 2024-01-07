@@ -19,7 +19,8 @@ body {
 /* nav related style */
 nav {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    align-items: center;
 }
 .nav-title{
     color: #181818;
@@ -29,6 +30,7 @@ nav {
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -40,4 +42,8 @@ nav a{
     text-decoration: none;
     columns: #474747;
 
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
 }
